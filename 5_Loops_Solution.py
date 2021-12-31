@@ -5,3 +5,5 @@ if __name__ == '__main__':
         print(i**2)
         i += 1
         
+
+        
