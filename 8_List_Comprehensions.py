@@ -13,3 +13,4 @@ if __name__ == '__main__':
                     abc = [X,Y,Z]
                     output.append(abc)
 print(output)
+
