@@ -8,3 +8,4 @@ d = set(input().split())
 x = set(b) | set(d)
 print(len(x))
 
+
