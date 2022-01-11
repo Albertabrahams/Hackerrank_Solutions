@@ -14,3 +14,4 @@ new_list.sort()
 result = new_list[1][1]
 result.sort()
 print (*result, sep = "\n")
+
