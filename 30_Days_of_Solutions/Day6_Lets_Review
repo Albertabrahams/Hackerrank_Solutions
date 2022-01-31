@@ -11,3 +11,4 @@ while T>0:
             odd += S[i]
     print(even,odd)
     T -=1
+    
