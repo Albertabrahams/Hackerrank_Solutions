@@ -9,3 +9,4 @@ if __name__ == '__main__':
     query_name = raw_input()
 average = sum(student_marks[query_name])/len(student_marks[query_name])
 print ("%.2f"%average)
+
