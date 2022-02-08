@@ -1,0 +1,18 @@
+t = int(input())
+a = t
+phonebook={}
+while t >0:
+    phone = input()
+    phone = phone.split()
+    phonebook[phone[0]]=phone[1]
+    t -= 1
+while True:
+    try:
+        m = input("")
+        if m in phonebook:
+            print(m+"="+phonebook[m])
+        else:
+            print("Not found")
+    
+    except EOFError:
+        break
